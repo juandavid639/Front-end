@@ -1,0 +1,145 @@
+* {
+    box-sizing: border-box;
+    margin: 0px;
+    padding: 0px;
+}
+body {
+    font-family: Roboto;
+}
+
+header {
+    background-color: orange;
+    color: white;
+}
+header div.cabeza {
+    display: flex;
+    justify-content: space-between;
+    background-color: black;
+    color: white;
+}
+header div.cabeza p {
+    margin: 4px 0px 4px 90px;
+}
+
+header div div.menu {
+    display: flex;
+    justify-content: space-evenly;
+    margin: 4px 90px 4px 0px;
+}
+header div div.menu span{
+    margin-left: 30px;
+}
+
+header div.navegacion {
+    display: flex;
+    justify-content: space-between;
+    padding: 19px 40px 19px 40px; 
+    align-items: center;
+}
+header div img{
+    width: auto;
+    height: 28px;
+}
+header div nav ul {
+    list-style: none;
+    width: 400px;
+    height: 15px;
+    display: flex;
+    justify-content: space-evenly ;
+}
+body section.primarytext img {
+    position: absolute;
+    z-index: -1;
+    width: 100%;
+}
+body section div.slide {
+    width: 500;
+    height: 350;
+    text-transform: capitalize;
+    font-size: 40px;
+    position: relative;
+    left: 700px;
+    top: 440px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+body section div button{
+    width: 150px;
+    height: 50px;
+}
+
+body section.cuerpo {
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    align-items: center;
+    padding: 750px 0px 0px 0px;
+}
+
+h2 {
+    font-size: 40px;
+}
+body section.cuerpo div.texto {
+    display: flex;
+    flex-direction: column;
+    margin-top: 5px;
+    justify-content: center;
+    align-items: center;
+}
+body section.cuerpo div.clase{
+    display: flex;
+    margin: 15px;
+   width: 400px; 
+    align-items: center;
+   justify-content: space-evenly;
+    
+}
+.naranja {
+    color: orange;
+}
+body section.medio
+{
+    margin: 100px 600px;
+    display: flex;
+justify-content: space-evenly;
+}
+body section.medio div{
+    display: flex;
+    flex-direction: column;
+    
+}
+.contenido {
+    align-items: center;
+    background-color: #FBFAF6;
+}
+
+.masmedio  {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin: 0px 940px;
+}
+
+body section.masmedio div.abajo span{
+    display: flex;
+    flex-direction: column;
+
+}
+body section.masmedio p {
+    width: 330px;
+    text-align: center;
+    
+}
+.Documentos {
+    margin: 10px;
+    width: 300px;
+    height: 30px;
+    background: saddlebrown;
+    color: white;
+    border-radius: 10px;
+    align-items: center;
+    padding-top: 7px;
+    font-size: 12px;
+}
